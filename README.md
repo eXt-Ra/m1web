@@ -1,5 +1,3 @@
-Rapport de projet
-
 # Intitulé du projet
 
 Création d'une application de location de logements entre particuliers
