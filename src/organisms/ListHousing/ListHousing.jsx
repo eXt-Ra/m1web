@@ -12,7 +12,7 @@ class ListHousing extends React.Component {
         <div className="list-wrapper">
           {this.props.housing.map((housing, index) => <div key={index} className="list-item" onClick={(e)=>this.props.handleItemListClick(e,housing)}>
             <div className="image-wrapper">
-              <img src={`http://localhost:8888/uploads/${housing.image_region}`}/>
+              <img src={`/uploads/${housing.image_region}`}/>
             </div>
             <div className="content-wrapper">
               <p>{housing.adresse}</p>
