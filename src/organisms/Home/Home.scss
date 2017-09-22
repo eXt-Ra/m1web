@@ -1,0 +1,74 @@
+
+.page-header-image{
+  background-image: url("./../../images/maison.jpg")
+}
+.map{
+	overflow: hidden;
+	display: flex;
+}
+
+.map_image{
+	width: 60%;
+	float: left;
+	overflow: hidden;
+}
+
+.map_image svg{
+	height: 500px;
+	width: 100%;
+}
+
+.map_image path{
+	stroke: #fff;
+	stroke-width:1px;
+}
+
+.map_image .is-active path{
+	fill: #7b79ff;
+}
+
+.map_list{
+	float: right;
+	width: 40%;
+	margin-top: 20vh;
+	margin: auto;
+}
+
+.map_list a{
+	color: inherit;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.map_list ul{
+	list-style: none;
+}
+
+.map_list li{
+	margin-bottom: 10px;
+}
+
+.map_list a.is-active{
+	color: #7b79ff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+    color: royalblue;
+    background-color:skyblue;
+    border: 1px solid #3a3f51;
+    font-size: 20px;
+    text-align: center;
+    line-height: 37px;
+}
+
+.scrollup:hover {
+    color: white;
+}
